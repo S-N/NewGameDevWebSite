@@ -1,0 +1,29 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+}    
+
+#zatsudan
+{
+    position: absolute;
+    z-index: 1;
+}
+
+#zatsudan2
+{
+    position: absolute;
+    z-index: 1;
+}
+
+#TokiwaCanvas
+{
+    position: absolute;
+    z-index: 0;
+}

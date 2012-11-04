@@ -1,0 +1,33 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+}    
+
+#Title
+{
+    position:absolute;
+    
+    font-style:italic;
+    z-index: 1;
+}
+
+#Tokiwalink
+{
+    position: absolute;
+    top: 30px;
+    font-style: normal;
+    z-index: 1;
+}
+
+#myCanvas
+{
+    position:absolute;
+    z-index: 0;
+}

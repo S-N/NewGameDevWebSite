@@ -61,6 +61,10 @@
     <Content Include="JavaScript1.js" />
     <Content Include="Jquery.js" />
     <Content Include="TokiwaFestival2012\index.html" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="TokiwaFestival2012\JavaScript1.js" />
+    <Content Include="TokiwaFestival2012\Jquery.js" />
+    <Content Include="TokiwaFestival2012\StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
