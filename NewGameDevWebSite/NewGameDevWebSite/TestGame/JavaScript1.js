@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var canvas = $("#myCanvas");
+    var canvas = $("#GameCanvas");
     var context = canvas.get(0).getContext("2d");
 
 
@@ -13,7 +13,7 @@ $(document).ready(function () {
         this.radius = 50;
 
         this.draw = function () {
-            context.fillStyle = "rgba(255, 0, 0, 0.5)";
+            context.fillStyle = "rgba(0, 0, 255, 0.5)";
             context.beginPath();
             context.arc(this.x, this.y, 50, 0, Math.PI * 2, false);
             context.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
