@@ -12,7 +12,7 @@ html, body
 
 
 
-ul#LinkList
+ol#GameList
 {
     position: absolute;
     top: 60px;
@@ -35,7 +35,7 @@ h2#Zaregoto
     z-index: 1;
 }
 
-#myCanvas
+#GameCanvas
 {
     position:absolute;
     z-index: 0;

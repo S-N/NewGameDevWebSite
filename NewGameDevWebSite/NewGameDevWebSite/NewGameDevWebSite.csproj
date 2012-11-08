@@ -60,6 +60,23 @@
     <Content Include="index.html" />
     <Content Include="JavaScript1.js" />
     <Content Include="Jquery.js" />
+    <Content Include="TestGame\Bowling\game.css" />
+    <Content Include="TestGame\Bowling\game.js" />
+    <Content Include="TestGame\Bowling\index.html" />
+    <Content Include="TestGame\Bowling\Jquery.js" />
+    <Content Include="TestGame\index.html" />
+    <Content Include="TestGame\JavaScript1.js" />
+    <Content Include="TestGame\Jquery.js" />
+    <Content Include="TestGame\Mogura\chara1.gif" />
+    <Content Include="TestGame\Mogura\enchant.js" />
+    <Content Include="TestGame\Mogura\end.png" />
+    <Content Include="TestGame\Mogura\index.html" />
+    <Content Include="TestGame\Mogura\kirakira.gif" />
+    <Content Include="TestGame\Mogura\main.js" />
+    <Content Include="TestGame\Mogura\mogura.png" />
+    <Content Include="TestGame\Mogura\nineleap.enchant.js" />
+    <Content Include="TestGame\Mogura\start.png" />
+    <Content Include="TestGame\StyleSheet1.css" />
     <Content Include="TokiwaFestival2012\index.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="TokiwaFestival2012\JavaScript1.js" />
@@ -71,6 +88,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TestGame\Mogura\.DS_Store" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,6 +96,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
