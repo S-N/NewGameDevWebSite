@@ -9,7 +9,7 @@ body
     padding: 0;
     font-size: small;
     color: black;
-    background-color: white;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQUlEQVQYlWP48j3sPwMB8H8eM0QNPsVwRTCATTGGImyKcSpCVkxQEcwkgh5ENgmnYmzWYSjG5ya4YmIc/uV72H8ADaA6t6bvYAgAAAAASUVORK5CYII=) repeat;
 }
 
 h1
@@ -24,14 +24,20 @@ h2
 
 p
 {
+    display: block;
     line-height: 1.7;
 }
+    p#setsumei
+    {
+        margin: 0 0 15px 35px;
+    }
 
 /*---枠組み-------------------------------------------------------*/
 #page
 {
     margin: 0 auto;
     width: 900px;
+    z-index: 1;
 }
 
 #side
@@ -52,9 +58,23 @@ footer
 }
 
 /*---ヘッダ-------------------------------------------------------*/
+div#header
+{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+header
+{
+    position: relative;
+    background-color: none;
+}
+
 header h1, header p
 {
+    position: absolute;
     display: block;
+    z-index: 1;
 }
 
 header p
@@ -64,8 +84,18 @@ header p
 
 #title
 {
-    background-color: azure;
+    width: 900px;
+    height: 150px;
+    /*background-color: azure;*/
     margin: 10px auto;
+}
+
+header canvas
+{
+    top: 0;
+    z-index: 0;  
+    margin: 0;
+    padding: 0;
 }
 
 /*---サイドメニュー------------------------------------------------*/
@@ -101,11 +131,11 @@ nav li
 {
     padding: 15px 20px;
 }
-
-    nav li:hover
+nav li:hover
         {
             background-color: #aaa;
         }
+
 
 nav a
 {
@@ -127,6 +157,7 @@ nav #current
 /*---メイン-------------------------------------------------------*/
 #main section
 {
+   
     margin: 0 0 20px 20px; 
     padding: 15px;
     background-color: rgba(213, 226, 40, 0.50);
