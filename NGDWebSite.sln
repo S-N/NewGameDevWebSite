@@ -1,24 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NewGameDevWebSite", ".", "{65E39A4E-CA99-4A21-8927-50FFB6FCF80D}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NGDWebSite", "http://localhost:59940", "{3D4AC940-ADE3-4AF6-A8FC-3BE6C4CA1F29}"
 	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/NewGameDevWebSite"
-		Debug.AspNetCompiler.PhysicalPath = "..\NewGameDevWebSite\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NewGameDevWebSite\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59940"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\NGDWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59940\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/NewGameDevWebSite"
-		Release.AspNetCompiler.PhysicalPath = "..\NewGameDevWebSite\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NewGameDevWebSite\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59940"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\NGDWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59940\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "59893"
+		SlnRelativePath = "..\..\..\GitHub\NGDWebSite\"
+		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Global
@@ -26,8 +28,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{65E39A4E-CA99-4A21-8927-50FFB6FCF80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65E39A4E-CA99-4A21-8927-50FFB6FCF80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4AC940-ADE3-4AF6-A8FC-3BE6C4CA1F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4AC940-ADE3-4AF6-A8FC-3BE6C4CA1F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
