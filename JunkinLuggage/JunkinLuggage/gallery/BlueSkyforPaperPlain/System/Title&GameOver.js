@@ -21,7 +21,7 @@
         for (var i = 0 ; i < numCircle+1 ; i++) {
             StartContext.fillStyle = "white";
             StartContext.beginPath();
-            StartContext.arc(50*i, (titlePosT + (titleWords.height()/2)), titleRadius, 0, Math.PI * 2, false);
+            StartContext.arc(50*i, (titlePosT + (titleWords.height()/2) -150), titleRadius, 0, Math.PI * 2, false);
             StartContext.closePath();
             StartContext.fill();
         }

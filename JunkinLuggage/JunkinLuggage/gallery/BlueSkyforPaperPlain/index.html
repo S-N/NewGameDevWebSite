@@ -4,8 +4,9 @@
 	<title>シューティング</title>
 		<meta charset="utf-8">
 		
-		<link href="System/game.css" rel="stylesheet" type="text/css">
-		
+		<link href="System/game.css" rel="stylesheet" type="text/css" />
+		<link href="../../System/mainCSS.css" rel="stylesheet" type="text/css" />
+
 		<script type="text/JavaScript" src="System/Jquery.js"></script>
         <script type="text/javascript" src="System/Title&GameOver.js"></script>
 		<script type="text/JavaScript" src="System/canvas1.js"></script>	
@@ -13,18 +14,46 @@
 	</head>
 	
 	<body>
+        <div id="page">
+        <div id="header">
+            <header>
+                <!--<h1 id="title">YNU PC Circle SCITEX<br />GameDev</h1>
+                <canvas id="titleCanvas" width="900" height="150"></canvas>-->
+               <div id="title"></div>
+            </header>
+        </div>
+
+        <!--<?php require("header.html"); ?>-->
+
+        <div id="side"></div>
+        <div id="sidemenu">
+            <nav>
+                <ul>
+                    <li class="top" id="current"><a href="#">ホーム</a></li>
+                    <li><a href="#">活動紹介</a></li>
+                    <li><a href="#">お知らせ</a></li>
+                    
+                    <li id="gallery"><a href="gallery/index.html">ギャラリー</a></li>
+                    <li class="childGallery"><a href="gallery/BlueSkyforPaperPlain/index.html">BlueSkyfor PaperPlain</a></li>
+                       
+                    <li class="last"><a href="#">リンク</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <div id="Game">
     <div id="MainPart">
        <div class="start" id="gameStart">
             <h1 class="start">Blue Sky for Paper Plane</h1>
             <button class="start" type="button" id="Start">play</button>
-            <canvas class="start" id="StartCanvas" width="800" height="800"></canvas>
+            <canvas class="start" id="StartCanvas" width="500" height="500"></canvas>
        </div>
 
 	    <div id="game">
 
-			<canvas id="myCanvas1" width="800" height="800"></canvas>
-            <canvas id="myCanvas2" width="800" height="800"></canvas>
-            <canvas id="myCanvas3" width="800" height="800"></canvas>
+			<canvas id="myCanvas1" width="500" height="500"></canvas>
+            <canvas id="myCanvas2" width="500" height="500"></canvas>
+            <canvas id="myCanvas3" width="500" height="500"></canvas>
 
             <p id="gameScore">Score:<span id="Score"></span></p>
 
@@ -49,6 +78,7 @@
         </div> 
     </div>
 
+    <div>
         <audio id="Titlebgm" loop>
             <source src="Sound/Title.mp3" />
             <source src="Sound/Title.ogg" />
@@ -199,8 +229,20 @@
             <source src="Sound/Lifeup.mp3" />
             <source src="Sound/Lifeup.ogg" />
         </audio>
+        </div>
 
+    </div>
 
+            <div id="footer">
+            <footer>       
+                <aside>
+                    <p>ご意見感想などあればうんたらかんたら</p>
+                </aside>
 
+                <p id="copyright"><small>Copyright &copy 2012 SCITEX. All right reserved.</small></p>
+            </footer>
+        </div>
+
+    </div>
 	</body>
 </html>

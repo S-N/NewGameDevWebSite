@@ -77,9 +77,9 @@
     <Content Include="index.html" />
     <Content Include="System\bg.gif" />
     <Content Include="System\Jquery.js" />
-    <Content Include="System\Logo.png" />
     <Content Include="System\mainCSS.css" />
     <Content Include="System\titleCanvas.js" />
+    <Content Include="System\Titlelogo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

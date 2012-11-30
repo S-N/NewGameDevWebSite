@@ -2,25 +2,35 @@
 {
     position: relative;
     display: block;
-    width: 900px;
+    width: 750px;
     height: 100px;
     margin: 0 0 15px 25px;
+    background-color: rgba(241, 243, 6, 0.64);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
 }
+    header#galleryHeader h2
+    {
+        position: relative;
+        font-size: 25px;
+        float: left;
+        margin: 10px 0 0 20px;
+        padding: 0;
+
+    }
+    header#galleryHeader p
+    {
+        clear: left;
+        position: relative;
+        float: left;
+        margin: 10px;
+        padding: 10px;
+    }
 
 img
 {
     margin: 10px auto;
-}
-
-h1#gallery
-{
-    position: relative;
-    font-size: 25px;
-}
-
-header p
-{
-    position: relative;
 }
 
 div#main section p
@@ -33,4 +43,12 @@ div#main section p img
     display: block;
 }
 
+div#game
+{
+    position:relative;
+    width: 750px;
+    /*float: right;*/
+    z-index: 0;
+    margin: 20px auto;
+}
 

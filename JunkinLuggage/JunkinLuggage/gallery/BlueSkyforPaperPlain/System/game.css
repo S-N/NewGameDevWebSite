@@ -37,23 +37,40 @@ div#MainPart
 {
     position: relative;
     margin: 0 auto;
-    width: 800px;
+    width: 500px;
+}
+
+div#Game
+{
+    position: relative;
+    margin: 20px auto;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
 }
 
 div#game
 {
     position: relative;
     font-family: 'Comic Sans MS';
-    /*top: 50%;
-    left: 50%;*/
     z-index: 0;
     display: block;
+    position: relative;
+    
+    display: block;
+    height: 500px;
+    width: 500px;
+    background-color: none;
+    
 }
 
     #myCanvas1 {
      position:absolute;
      top: 0px;
      left: 0px;
+     border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
     }
 
     #myCanvas2 {
@@ -71,7 +88,9 @@ div#game
 
     #gameScore
     {
+        font-family: 'Comic Sans MS';
         font-size: 30px;
+        margin-left: 20px;
         color: black;
         position: absolute;
         top: 0px;
@@ -152,10 +171,13 @@ div.start
     /*top:50%;
     left:50%;*/
     display: block;
-    height: 800px;
-    width: 800px;
+    height: 500px;
+    width: 500px;
     background-color: skyblue;
     z-index: 2;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
 }
 
     h1.start
@@ -163,7 +185,7 @@ div.start
         color: black;
         position: relative;
         display: block;
-        font-size: 50px;
+        font-size: 30px;
         font-family: 'Comic Sans MS';
         top: 150px;
         z-index: 1;
@@ -171,7 +193,7 @@ div.start
     button.start
     {
         position: relative;
-        margin: 350px auto 10px;
+        margin: 200px auto 10px;
         padding: 0;
         width: 110px;
         height: 70px;
@@ -200,18 +222,21 @@ div.gameOver
     left:50%;*/
     display: block;
 
-    height: 800px;
-    width: 800px;
+    height: 500px;
+    width: 500px;
     background-color: skyblue;
     z-index: 1;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
 }
 
     h1.gameOver
     {
         position: relative;
-        font-size: 50px;
+        font-size: 30px;
         font-family: 'Comic Sans MS';
-        top: 100px;
+        top: 60px;
     }
 
     button.gameOver
@@ -221,8 +246,8 @@ div.gameOver
         margin: 0;
         padding:0;
         height: 70px;
-        width: 300px;
-        font-size: 40px;
+        width: 200px;
+        font-size: 25px;
     }
 
     p.gameOver
@@ -237,7 +262,7 @@ div.gameOver
             padding: 0;
             font-family: 'Comic Sans MS';
             top: 130px;
-            font-size: 30px;
+            font-size: 35px;
         }
 
         p.gameOver#r
@@ -247,7 +272,7 @@ div.gameOver
             padding: 0;
             font-family: 'Comic Sans MS';
             top: 170px;
-            font-size: 30px;
+            font-size: 15px;
         }
 
 
@@ -256,3 +281,5 @@ button.gameOver:hover
 {
     background-color: rgb(200,200,200);
 }
+
+

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunkinLuggage", "JunkinLuggage\JunkinLuggage.csproj", "{75A7CF3D-A1B4-4D25-BBA5-7421638D8823}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGDWS", "JunkinLuggage\NGDWS.csproj", "{75A7CF3D-A1B4-4D25-BBA5-7421638D8823}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

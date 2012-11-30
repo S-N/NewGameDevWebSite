@@ -134,9 +134,9 @@ $(document).ready(function() {
             scrollCount++;
         }
 
-        //400‰ñ–Ú‚ÌAnimateŽž‚Ì‘¬‚³
-        if (scrollcontrolCount == 400) {
-            context1.translate(-cloudvX * 400, 0);
+        //250‰ñ–Ú‚ÌAnimateŽž‚Ì‘¬‚³
+        if (scrollcontrolCount == 250) {
+            context1.translate(-cloudvX * 250, 0);
             scrollcontrolCount = 0;
             countForScrollBack = 0;
         }
