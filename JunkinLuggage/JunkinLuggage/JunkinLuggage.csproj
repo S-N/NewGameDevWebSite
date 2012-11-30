@@ -73,6 +73,7 @@
     <Content Include="gallery\galleryCSS.css" />
     <Content Include="gallery\images\BSPP.png" />
     <Content Include="gallery\index.html" />
+    <Content Include="header.html" />
     <Content Include="index.html" />
     <Content Include="System\bg.gif" />
     <Content Include="System\Jquery.js" />

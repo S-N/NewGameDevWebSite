@@ -3,8 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <link href="../System/mainCSS.css" rel="stylesheet" type="text/css" />
+
     <link href="galleryCSS.css" rel="stylesheet" type="text/css" />
+    <link href="../System/mainCSS.css" rel="stylesheet" type="text/css" />
+    
     <script type="text/javascript" src="../System/Jquery.js"></script>
     <script type="text/javascript" src="../System/titleCanvas.js"></script>
 </head>
@@ -12,24 +14,26 @@
     <div id="page">
         <div id="header">
             <header>
-                <!--<h1 id="title">YNU PC Circle SCITEX<br />GameDev</h1>
-                <canvas id="titleCanvas" width="900" height="150"></canvas>-->
-                <div id="title"></div>
+                <h1 id="title">YNU PC Circle SCITEX<br />GameDev</h1>
+                <canvas id="titleCanvas" width="900" height="150"></canvas>
+        <!--        <div id="title"></div>-->
             </header>
         </div>
 
-        <div id="side">
+      <!--  <?php require("../header.html"); ?>-->
+
+        <div id="side"></div>
+        <div id="sidemenu">
             <nav>
                 <ul>
-                    <li><a href="../index.html">ホーム</a></li>
+                    <li class="top"><a href="../index.html">ホーム</a></li>
                     <li><a href="#">活動紹介</a></li>
                     <li><a href="#">お知らせ</a></li>
-                    <li><a href="#">お知らせ</a></li>
-                    <li><a href="#">お知らせ</a></li>
-                    <li><a href="#">お知らせ</a></li>
-                    <li><a href="#">お知らせ</a></li>
+
                     <li id="current"><a href="gallery/index.html">ギャラリー</a></li>
-                    <li id="last"><a href="#">リンク</a></li>
+                    <li class="childGallery"><a href="BlueSkyforPaperPlain/index.html">BlueSkyfor PaperPlain</a></li>
+                    
+                    <li class="last"><a href="#">リンク</a></li>
                 </ul>
             </nav>
         </div>

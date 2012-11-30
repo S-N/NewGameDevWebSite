@@ -72,7 +72,7 @@ div#header
 header #title
 {
     position: relative;
-    background: url(Logo.png);
+    /*background: url(Logo.png);*/
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -100,6 +100,7 @@ header p
 
 header canvas
 {
+    position: absolute;
     top: 0;
     z-index: 0;  
     margin: 0;
@@ -113,7 +114,7 @@ nav ul
 {
     position: absolute;
     display: block;
-    width:500px;
+    width:300px;
     float: left;
     overflow: hidden;
     margin: 0 auto;
@@ -154,17 +155,23 @@ nav li:hover
 li.childGallery
 {
     position: relative;
-    background-color: rgb(115, 246, 12);
+    background-color: white;
+    border: 1px dotted orange;
     width: 150px;
     top: -53px;
     z-index: 1;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 0.5s;
+    border-radius: 50px;
 }
 li.childGallery:hover
 {
-    background-color: rgb(115, 246, 12);
+    background-color: white;
     -moz-transform: translateX(130px);
+}
+li.childGallery a
+{
+    color: #999;
 }
 
 
@@ -196,7 +203,7 @@ li.top
 
 li.last
 {
-    top: -53px;
+    top: -52px;
     border-bottom: none;
     border-bottom-right-radius: 20px;
     -webkit-border-bottom-right-radius: 20px;
