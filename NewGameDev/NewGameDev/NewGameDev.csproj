@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Activity\activityCSS.css" />
+    <Content Include="copyright.html" />
     <Content Include="gallery\BlueSkyforPaperPlain\index.html" />
     <Content Include="gallery\BlueSkyforPaperPlain\Sound\Bodyattack.mp3" />
     <Content Include="gallery\BlueSkyforPaperPlain\Sound\Bomb.mp3" />
@@ -75,7 +76,6 @@
     <Content Include="gallery\forGamePage.css" />
     <Content Include="gallery\galleryCSS.css" />
     <Content Include="gallery\images\BSPP.png" />
-    <Content Include="gallery\index.html" />
     <Content Include="System\bg.gif" />
     <Content Include="System\Jquery.js" />
     <Content Include="System\mainCSS.css" />
@@ -88,8 +88,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.php" />
-    <Content Include="header.php" />
-    <Content Include="sidemenu.php" />
+    <Content Include="header.html" />
+    <Content Include="sidemenu.html" />
     <Content Include="Activity\index.php" />
     <Content Include="gallery\BlueSkyforPaperPlain\index.php" />
     <Content Include="gallery\BlueSkyforPaperPlain\Sound\Bodyattack.ogg" />

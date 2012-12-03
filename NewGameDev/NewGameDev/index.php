@@ -9,9 +9,9 @@
 </head>
 <body>
     <div id="page">
-        <?php include("header.php"); ?>
+        <?php include("header.html"); ?>
 
-        <?php include("sidemenu.php"); ?>
+        <?php include("sidemenu.html"); ?>
 
         <div id="main">
            <section>
@@ -34,7 +34,7 @@
                     <p>ご意見感想などあればうんたらかんたら</p>
                 </aside>
 
-                <p id="copyright"><small>Copyright &copy 2012 SCITEX. All right reserved.</small></p>
+                <?php include("copyright.html"); ?>
             </footer>
         </div>
 
