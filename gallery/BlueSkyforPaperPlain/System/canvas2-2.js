@@ -20,10 +20,10 @@
     var contextRotateNum = 0;
     var rotateEndFlag = true;
     //矢印キーを列挙
-    var arrowLeft = 37;
-    var arrowUp = 38;
-    var arrowDown = 40;
-    var arrowRight = 39;
+    var arrowLeft = 74;
+    var arrowUp = 73;
+    var arrowDown = 75;
+    var arrowRight = 76;
     //Zでショット
     var shotKeyZ = 90;
     //各配列と(あれば)その要素数の限界

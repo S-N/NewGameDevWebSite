@@ -123,6 +123,7 @@ nav ul
     padding: 0;
     border: none;
     line-height: 1.0;
+    text-align: center;
     
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -162,6 +163,10 @@ li.childGallery
     width: 150px;
     top: -53px;
     z-index: 1;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 0.5s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 0.5s;
     border-radius: 50px;
@@ -169,6 +174,8 @@ li.childGallery
 li.childGallery:hover
 {
     background-color: white;
+    transform: translateX(130px);
+    -webkit-transform: translateX(130px);
     -moz-transform: translateX(130px);
 }
 li.childGallery a
@@ -228,6 +235,8 @@ li.last
 /*---フッター-----------------------------------------------------*/
 footer
 {
+    text-align: center;
+    clear: both;
     display: block;
     border-top: 1px solid #eee;
 }

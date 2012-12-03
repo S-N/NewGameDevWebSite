@@ -9,15 +9,15 @@
 </head>
 <body>
     <div id="page">
-        <div id="header">
+        <!--<div id="header">
             <header>
-                <!--<h1 id="title">YNU PC Circle SCITEX<br />GameDev</h1>
-                <canvas id="titleCanvas" width="900" height="150"></canvas>-->
+                <h1 id="title">YNU PC Circle SCITEX<br />GameDev</h1>
+                <canvas id="titleCanvas" width="900" height="150"></canvas>
                <div id="title"></div>
             </header>
-        </div>
+        </div>-->
 
-        <!--<?php require("header.html"); ?>-->
+        <?php include("header.php"); ?>
 
         <div id="side"></div>
         <div id="sidemenu">
@@ -27,8 +27,8 @@
                     <li><a href="#">活動紹介</a></li>
                     <li><a href="#">お知らせ</a></li>
                     
-                    <li id="gallery"><a href="gallery/index.html">ギャラリー</a></li>
-                    <li class="childGallery"><a href="gallery/BlueSkyforPaperPlain/index.html">BlueSkyfor PaperPlain</a></li>
+                    <li id="gallery"><a href="gallery/index.php">ギャラリー</a></li>
+                    <li class="childGallery"><a href="gallery/BlueSkyforPaperPlain/index.php">BlueSkyfor PaperPlain</a></li>
                        
                     <li class="last"><a href="#">リンク</a></li>
                 </ul>

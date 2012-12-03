@@ -12,26 +12,18 @@
 </head>
 <body>
     <div id="page">
-        <div id="header">
-            <header>
-                <!--<h1 id="title">YNU PC Circle SCITEX<br />GameDev</h1>
-                <canvas id="titleCanvas" width="900" height="150"></canvas>-->
-                <div id="title"></div>
-            </header>
-        </div>
-
-        <!--<?php include '../header.html' ); ?>-->
+        <?php include("../header.php"); ?>
 
         <div id="side"></div>
         <div id="sidemenu">
             <nav>
                 <ul>
-                    <li class="top"><a href="../index.html">ホーム</a></li>
+                    <li class="top"><a href="../index.php">ホーム</a></li>
                     <li><a href="#">活動紹介</a></li>
                     <li><a href="#">お知らせ</a></li>
 
-                    <li id="current"><a href="gallery/index.html">ギャラリー</a></li>
-                    <li class="childGallery"><a href="BlueSkyforPaperPlain/index.html">BlueSkyfor PaperPlain</a></li>
+                    <li id="current"><a href="gallery/index.php">ギャラリー</a></li>
+                    <li class="childGallery"><a href="BlueSkyforPaperPlain/index.php">BlueSkyfor PaperPlain</a></li>
                     
                     <li class="last"><a href="#">リンク</a></li>
                 </ul>
@@ -44,7 +36,7 @@
                 <p>今までに制作したゲームが置いてあります。</p>
             </header>
              <section>
-                <h2><a href="BlueSkyforPaperPlain/index.html">Blue Sky for Paper Plain</a></h2>
+                <h2><a href="BlueSkyforPaperPlain/index.php">Blue Sky for Paper Plain</a></h2>
                 <p><img src="images/BSPP.png" /></p>
                 <p>
                     東京工科大主催の<a href="http://sgf2012.hp2.jp/">Student Game Fes 2012</a>に出品させていただいたゲームです。

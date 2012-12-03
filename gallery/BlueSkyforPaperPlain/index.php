@@ -6,36 +6,29 @@
 		
         <link href="../../System/mainCSS.css" rel="stylesheet" type="text/css" />
 		<link href="System/game.css" rel="stylesheet" type="text/css" />
+        <link href="../forGamePage.css" rel="stylesheet" type="text/css" />
 		
 
 		<script type="text/JavaScript" src="System/Jquery.js"></script>
-        <script type="text/javascript" src="System/Title&GameOver.js"></script>
+        <script type="text/javascript" src="System/Title-GameOver.js"></script>
 		<script type="text/JavaScript" src="System/canvas1.js"></script>	
         <script type="text/JavaScript" src="System/canvas2-2.js"></script>
 	</head>
 	
 	<body>
         <div id="page">
-        <div id="header">
-            <header>
-                <!--<h1 id="title">YNU PC Circle SCITEX<br />GameDev</h1>
-                <canvas id="titleCanvas" width="900" height="150"></canvas>-->
-               <div id="title"></div>
-            </header>
-        </div>
-
-        <!--<?php require("header.html"); ?>-->
+        <?php include("../../header.php"); ?>
 
         <div id="side"></div>
         <div id="sidemenu">
             <nav>
                 <ul>
-                    <li class="top" id="current"><a href="#">ホーム</a></li>
+                    <li class="top"><a href="../../index.php">ホーム</a></li>
                     <li><a href="#">活動紹介</a></li>
                     <li><a href="#">お知らせ</a></li>
                     
-                    <li id="gallery"><a href="gallery/index.html">ギャラリー</a></li>
-                    <li class="childGallery"><a href="gallery/BlueSkyforPaperPlain/index.html">BlueSkyfor PaperPlain</a></li>
+                    <li id="gallery"><a href="../index.php">ギャラリー</a></li>
+                    <li class="childGallery"><a href="gallery/BlueSkyforPaperPlain/index.php">BlueSkyfor PaperPlain</a></li>
                        
                     <li class="last"><a href="#">リンク</a></li>
                 </ul>
@@ -237,7 +230,27 @@
             <div id="footer">
             <footer>       
                 <aside>
-                    <p>ご意見感想などあればうんたらかんたら</p>
+                    <section id="A">
+                        <p>
+                            Zキーでショット、Iキーで上 Kキーで下 Jキーで左 Lキーで右方向に移動できます。<br />
+                            ハートをとると体力が回復します。
+                        </p>
+                    </section>
+                    <br />
+                    <section id="B">
+                    <h3>ランク</h3>
+                        <ul>
+                            <li>( ﾟдﾟ )( ﾟдﾟ )( ﾟдﾟ )</li>  
+                            <li>( ﾟдﾟ )( ﾟдﾟ )</li>
+                            <li>( ﾟдﾟ )</li>
+                            <li>(｀・ω・´)(｀・ω・´)(｀・ω・´)</li>
+                            <li>(｀・ω・´)(｀・ω・´)</li>
+                            <li>(｀・ω・´)</li>
+                            <li>(´･ω･｀)</li>
+                            <li>(´･ω･｀)(´･ω･｀)</li>
+                            <li>(´･ω･｀)(´･ω･｀)(´･ω･｀)</li>
+                        </ul>
+                    </section>
                 </aside>
 
                 <p id="copyright"><small>Copyright &copy 2012 SCITEX. All right reserved.</small></p>
