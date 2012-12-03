@@ -3,23 +3,27 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <link href="System/mainCSS.css" rel="stylesheet" type="text/css" />
+    <link href="../System/mainCSS.css" rel="stylesheet" type="text/css" />
+    <link href="activityCSS.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="System/Jquery.js"></script>
-    <script type="text/javascript" src="System/titleCanvas.js"></script>
+    
 </head>
 <body>
     <div id="page">
-        <?php include("header.php"); ?>
+        <?php include("../header.php"); ?>
 
-        <?php include("sidemenu.php"); ?>
+        <?php include("../sidemenu.php"); ?>
 
         <div id="main">
+           <header id="activityHeader">
+               <h2>活動紹介</h2>
+               <p>今までの活動記録です</p>
+           </header>
            <section>
-                <h2>このサイトについて</h2>
-                <hr />
+                <h2>Student Game Fes 2012　に参加</h2>
                 <p>
-                    横浜国立大学PCサークルSCITEX,GameDev1のサイトへようこそ！<br />
-                    ここでは私たちがプログラミングの勉強のためにつくったゲームを置いてあります。<br />
+                    東京工科大主催のStudent Game Fes 2012に参加させていただきました。<br />
+                    我々のだしたミニゲーム集のCDはユニーク賞をいただきました。
                 </p>
             </section>
             <section>

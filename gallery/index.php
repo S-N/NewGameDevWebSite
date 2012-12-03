@@ -14,21 +14,7 @@
     <div id="page">
         <?php include("../header.php"); ?>
 
-        <div id="side"></div>
-        <div id="sidemenu">
-            <nav>
-                <ul>
-                    <li class="top"><a href="../index.php">ホーム</a></li>
-                    <li><a href="#">活動紹介</a></li>
-                    <li><a href="#">お知らせ</a></li>
-
-                    <li id="current"><a href="gallery/index.php">ギャラリー</a></li>
-                    <li class="childGallery"><a href="BlueSkyforPaperPlain/index.php">BlueSkyfor PaperPlain</a></li>
-                    
-                    <li class="last"><a href="#">リンク</a></li>
-                </ul>
-            </nav>
-        </div>
+        <?php include("../sidemenu.php"); ?>
 
         <div id="main">
             <header id="galleryHeader">

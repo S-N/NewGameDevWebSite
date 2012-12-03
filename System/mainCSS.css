@@ -198,16 +198,19 @@ li#childGallery a
     width: 170px;
 }
 
-nav #current 
+/*nav #current 
 {
     background-color: #f8a208;
-}
+}*/
 
 li.top
 {
     border-top-right-radius: 20px;
     -webkit-border-top-right-radius: 20px;
     -moz-border-radius-topright: 20px;
+    border-top-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
 }
 
 li.last

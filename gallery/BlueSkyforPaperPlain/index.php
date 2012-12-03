@@ -19,21 +19,7 @@
         <div id="page">
         <?php include("../../header.php"); ?>
 
-        <div id="side"></div>
-        <div id="sidemenu">
-            <nav>
-                <ul>
-                    <li class="top"><a href="../../index.php">ホーム</a></li>
-                    <li><a href="#">活動紹介</a></li>
-                    <li><a href="#">お知らせ</a></li>
-                    
-                    <li id="gallery"><a href="../index.php">ギャラリー</a></li>
-                    <li class="childGallery"><a href="gallery/BlueSkyforPaperPlain/index.php">BlueSkyfor PaperPlain</a></li>
-                       
-                    <li class="last"><a href="#">リンク</a></li>
-                </ul>
-            </nav>
-        </div>
+        <?php include("../../sidemenu.php"); ?>
 
     <div id="Game">
     <div id="MainPart">
@@ -239,6 +225,7 @@
                     <br />
                     <section id="B">
                     <h3>ランク</h3>
+                        <p>上に行くほど高いです</p>
                         <ul>
                             <li>( ﾟдﾟ )( ﾟдﾟ )( ﾟдﾟ )</li>  
                             <li>( ﾟдﾟ )( ﾟдﾟ )</li>
