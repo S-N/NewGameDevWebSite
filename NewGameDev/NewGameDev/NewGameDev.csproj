@@ -59,7 +59,6 @@
   <ItemGroup>
     <Content Include="Activity\activityCSS.css" />
     <Content Include="copyright.html" />
-    <Content Include="gallery\BlueSkyforPaperPlain\index.html" />
     <Content Include="gallery\BlueSkyforPaperPlain\Sound\Bodyattack.mp3" />
     <Content Include="gallery\BlueSkyforPaperPlain\Sound\Bomb.mp3" />
     <Content Include="gallery\BlueSkyforPaperPlain\Sound\hit.mp3" />

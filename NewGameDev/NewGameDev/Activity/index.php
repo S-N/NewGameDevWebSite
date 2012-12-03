@@ -38,7 +38,7 @@
                     <p>ご意見感想などあればうんたらかんたら</p>
                 </aside>
 
-                <?php include("copyright.html"); ?>
+                <?php include("../copyright.html"); ?>
             </footer>
         </div>
 
