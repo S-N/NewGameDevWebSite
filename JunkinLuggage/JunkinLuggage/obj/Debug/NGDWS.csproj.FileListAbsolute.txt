@@ -1,5 +1,0 @@
-D:\Users\sou\マイドキュメント\GitHub\NewGameDevWebSite\JunkinLuggage\JunkinLuggage\bin\JunkinLuggage.dll
-D:\Users\sou\マイドキュメント\GitHub\NewGameDevWebSite\JunkinLuggage\JunkinLuggage\bin\JunkinLuggage.pdb
-D:\Users\sou\マイドキュメント\GitHub\NewGameDevWebSite\JunkinLuggage\JunkinLuggage\obj\Debug\NGDWS.csprojResolveAssemblyReference.cache
-D:\Users\sou\マイドキュメント\GitHub\NewGameDevWebSite\JunkinLuggage\JunkinLuggage\obj\Debug\JunkinLuggage.dll
-D:\Users\sou\マイドキュメント\GitHub\NewGameDevWebSite\JunkinLuggage\JunkinLuggage\obj\Debug\JunkinLuggage.pdb

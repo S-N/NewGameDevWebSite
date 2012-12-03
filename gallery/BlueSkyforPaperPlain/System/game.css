@@ -40,6 +40,11 @@ div#MainPart
     width: 500px;
 }
 
+div#sidemenu
+{
+    z-index: 1;
+}
+
 div#Game
 {
     position: relative;
@@ -47,6 +52,7 @@ div#Game
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
+    z-index: 0;
 }
 
 div#game
